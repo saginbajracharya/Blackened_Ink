@@ -64,11 +64,11 @@
               <li class="nav-item active">
                 <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span> </a>
               </li>
-              <form class="form-inline">
+              <!-- <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
-              </form>
+              </form> -->
             </ul>
           </div>
         </nav>
@@ -79,6 +79,16 @@
 
   <!-- gallery section -->
 
+  <style>
+    .img-box.unique-style {
+        height: 400px; /* Set a fixed height for the image box */
+        width: 100%; /* Ensure the image fills the container */
+        overflow: hidden; /* Hide any overflow */
+        position: relative; /* Add positioning context for the image */
+        object-fit: cover; /* Cover the container while maintaining aspect ratio */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Example box shadow */
+    }
+  </style>
   <div class="gallery_section layout_padding">
     <div class="container-fluid">
       <div class="heading_container heading_center">
@@ -87,61 +97,61 @@
         </h2>
       </div>
       <div class="row">
-        <div class=" col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/g1.jpg" alt="">
+        <div class=" col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g1.png" alt="">
             <div class="btn-box">
-              <a href="images/g1.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g1.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g2.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g2.png" alt="">
             <div class="btn-box">
-              <a href="images/g2.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g2.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g3.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g3.png" alt="">
             <div class="btn-box">
-              <a href="images/g3.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g3.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g4.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g4.png" alt="">
             <div class="btn-box">
-              <a href="images/g4.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g4.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g5.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g5.png" alt="">
             <div class="btn-box">
-              <a href="images/g5.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g5.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/g6.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g6.png" alt="">
             <div class="btn-box">
-              <a href="images/g6.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g6.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
@@ -157,7 +167,7 @@
   <footer class="footer_section">
     <div class="container">
       <div class="row footer_form_social_row">
-        <div class="col-md-8 col-lg-9">
+        <!-- <div class="col-md-8 col-lg-9">
           <div class="footer_form">
             <form action="">
               <input type="email" placeholder="Enter your email">
@@ -166,23 +176,8 @@
               </button>
             </form>
           </div>
-        </div>
-        <div class="col-md-4 col-lg-3">
-          <div class="social_box">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
+        </div> -->
+        
       </div>
       <div class="row footer_main_row">
         <div class="col-md-6 col-lg-3 footer-col">
@@ -191,7 +186,7 @@
               About
             </h4>
             <p class="mb-0">
-              when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                Blackened Ink Color Beyond tattoo studio, where art meets passion and boundaries of Color Fade.
             </p>
           </div>
         </div>
@@ -240,6 +235,12 @@
               <span>
                 attireintellectual@gmail.com
               </span>
+            </a>
+            <a href="https://www.facebook.com/tranquiltattooing?mibextid=qi2Omg" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span>
+                    Blackened ink colour beyond 
+                </span>
             </a>
           </div>
         </div>

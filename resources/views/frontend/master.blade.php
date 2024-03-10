@@ -64,11 +64,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
-              <form class="form-inline">
+              <!-- <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
-              </form>
+              </form> -->
             </ul>
           </div>
         </nav>
@@ -90,16 +90,16 @@
                     <p>
                       Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                     </p>
-                    <div class="btn-box">
+                    <!-- <div class="btn-box">
                       <a href="" class="btn1">
                         Read More
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="col-md-5 col-lg-6">
                   <div class="img-box col-lg-10 mx-auto px-0">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="images/1.png" alt="">
                   </div>
                 </div>
               </div>
@@ -116,16 +116,16 @@
                     <p>
                       Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                     </p>
-                    <div class="btn-box">
+                    <!-- <div class="btn-box">
                       <a href="" class="btn1">
                         Read More
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="col-md-5 col-lg-6">
                   <div class="img-box col-lg-10 mx-auto px-0">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="images/2.png" alt="">
                   </div>
                 </div>
               </div>
@@ -142,16 +142,16 @@
                     <p>
                       Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                     </p>
-                    <div class="btn-box">
+                    <!-- <div class="btn-box">
                       <a href="" class="btn1">
                         Read More
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="col-md-5 col-lg-6">
                   <div class="img-box col-lg-10 mx-auto px-0">
-                    <img src="images/slider-img.png" alt="">
+                    <img src="images/3.png" alt="">
                   </div>
                 </div>
               </div>
@@ -251,10 +251,11 @@
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+                Welcome to Blackened Ink Color Beyond tattoo studio, where art meets passion. 
+                Our studio offers a personalized and professional tattoo experience. 
+                With a focus on creativity and client satisfaction, we strive to bring your tattoo ideas to life in a comfortable and safe environment. 
+                Each design is crafted with care and attention to detail, ensuring a unique and meaningful tattoo that you'll love for a lifetime. 
+                Join us in our cozy studio and let's create something beautiful together.
             </p>
             <a href="">
               Read More
@@ -269,6 +270,16 @@
 
   <!-- gallery section -->
 
+  <style>
+    .img-box.unique-style {
+        height: 400px; /* Set a fixed height for the image box */
+        width: 100%; /* Ensure the image fills the container */
+        overflow: hidden; /* Hide any overflow */
+        position: relative; /* Add positioning context for the image */
+        object-fit: cover; /* Cover the container while maintaining aspect ratio */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Example box shadow */
+    }
+  </style>
   <div class="gallery_section layout_padding">
     <div class="container-fluid">
       <div class="heading_container heading_center">
@@ -277,61 +288,61 @@
         </h2>
       </div>
       <div class="row">
-        <div class=" col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/g1.jpg" alt="">
+        <div class=" col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g1.png" alt="">
             <div class="btn-box">
-              <a href="images/g1.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g1.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g2.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g2.png" alt="">
             <div class="btn-box">
-              <a href="images/g2.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g2.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g3.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g3.png" alt="">
             <div class="btn-box">
-              <a href="images/g3.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g3.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g4.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g4.png" alt="">
             <div class="btn-box">
-              <a href="images/g4.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g4.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g5.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g5.png" alt="">
             <div class="btn-box">
-              <a href="images/g5.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g5.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/g6.jpg" alt="">
+        <div class="col-sm-12 col-md-4 px-0">
+          <div class="img-box unique-style">
+            <img src="images/g6.png" alt="">
             <div class="btn-box">
-              <a href="images/g6.jpg" data-toggle="lightbox" class="btn-1">
+              <a href="images/g6.png" data-toggle="lightbox" class="btn-1">
                 <i class="fa fa-picture-o" aria-hidden="true"></i>
               </a>
             </div>
@@ -359,7 +370,7 @@
               <div class="box">
                 <div class="detail-box">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  Absolutely thrilled with my tattoo from Blackened Ink Color Beyond! The artist was incredibly talented and made the whole experience comfortable and enjoyable. The attention to detail and creativity in the design exceeded my expectations. Will definitely be back for more ink!
                   </p>
                 </div>
                 <div class="client_id">
@@ -381,7 +392,7 @@
               <div class="box">
                 <div class="detail-box">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  Had an amazing experience at Blackened Ink Color Beyond. The artist took the time to understand exactly what I wanted and brought my vision to life beautifully. The studio was clean and the staff were friendly and professional. Couldn't be happier with the results!
                   </p>
                 </div>
                 <div class="client_id">
@@ -403,7 +414,7 @@
               <div class="box">
                 <div class="detail-box">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  Highly recommend Blackened Ink Color Beyond for anyone looking to get inked. The artist's skill and artistry are unmatched, and the atmosphere in the studio is welcoming and relaxed. I'm thrilled with my tattoo and will definitely be a repeat customer!
                   </p>
                 </div>
                 <div class="client_id">
@@ -425,7 +436,7 @@
               <div class="box">
                 <div class="detail-box">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  I had been contemplating getting a tattoo for years, and I'm so glad I chose Blackened Ink Color Beyond. The artist's professionalism and attention to detail made me feel at ease throughout the entire process. The final result exceeded my expectations and I couldn't be happier with my tattoo. I would highly recommend [Tattoo Shop Name] to anyone looking for a top-notch tattoo experience.
                   </p>
                 </div>
                 <div class="client_id">
@@ -455,7 +466,7 @@
   <footer class="footer_section">
     <div class="container">
       <div class="row footer_form_social_row">
-        <div class="col-md-8 col-lg-9">
+        <!-- <div class="col-md-8 col-lg-9">
           <div class="footer_form">
             <form action="">
               <input type="email" placeholder="Enter your email">
@@ -464,23 +475,8 @@
               </button>
             </form>
           </div>
-        </div>
-        <div class="col-md-4 col-lg-3">
-          <div class="social_box">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
+        </div> -->
+        
       </div>
       <div class="row footer_main_row">
         <div class="col-md-6 col-lg-3 footer-col">
@@ -489,7 +485,7 @@
               About
             </h4>
             <p class="mb-0">
-              when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                Blackened Ink Color Beyond tattoo studio, where art meets passion and boundaries of Color Fade.
             </p>
           </div>
         </div>
@@ -538,6 +534,12 @@
               <span>
                 attireintellectual@gmail.com
               </span>
+            </a>
+            <a href="https://www.facebook.com/tranquiltattooing?mibextid=qi2Omg" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span>
+                    Blackened ink colour beyond 
+                </span>
             </a>
           </div>
         </div>
